@@ -16,14 +16,6 @@ From: nvidia/cuda:9.0-cudnn7-devel
     apt-get install -y aptitude build-essential cmake g++ gfortran git \
         pkg-config python-pip python-dev software-properties-common
    
-<<<<<<< HEAD
-=======
-    # Add PPA for ffmpeg
-    add-apt-repository -y ppa:jonathonf/ffmpeg-3
-    apt-get update
-    apt-get install -y ffmpeg
-
->>>>>>> 48515bfa9ae0e3b7f463c94c3444056368ca943a
     # More utilities
     apt-get install -y graphviz libatlas-dev libfreetype6 libfreetype6-dev \
         libgraphviz-dev liblapack-dev swig libxft-dev libxml2-dev \
@@ -78,10 +70,6 @@ From: nvidia/cuda:9.0-cudnn7-devel
     pip install --no-cache-dir tinkerer
     pip install --no-cache-dir Pweave
     pip install --no-cache-dir numba
-<<<<<<< HEAD
-=======
-    pip install --no-cache-dir tensorflow-gpu
->>>>>>> 48515bfa9ae0e3b7f463c94c3444056368ca943a
 
     # Gnuplot
     apt-get install -y gnuplot-x11
@@ -90,7 +78,4 @@ From: nvidia/cuda:9.0-cudnn7-devel
     apt-get -y autoremove
     rm -rvf /var/lib/apt/lists/*
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 48515bfa9ae0e3b7f463c94c3444056368ca943a
