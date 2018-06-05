@@ -9,6 +9,9 @@ From: ubuntu: 16.04
  pip install scipy
  pip install numpy
  pip install sklearn
-
+ pip install keras
+ pip install matplotlib
+ pip install progressbar
+ 
 %environment
  export LC_ALL=C
